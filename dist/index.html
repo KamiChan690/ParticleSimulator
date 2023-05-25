@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <script type="module" crossorigin src="/assets/index-2d8023fe.js"></script>
+  </head>
+  <body>
+    <div>
+      <select id="particle" name="particle">
+        <option value="proton" selected>Próton</option>
+        <option value="electron">Elétron</option>
+      </select>
+      <div>
+        <label>Largura da Caixa (L): </label>
+        <input id="length" type="text" />
+      </div>
+      <div>
+        <label>𝑛 inicial da partícula (𝒏𝒊): </label>
+        <input id="ni" type="text" />
+      </div>
+      <div>
+        <label>𝑛 final da partícula (𝒏𝒇): </label>
+        <input id="nf" type="text" />
+      </div>
+      <p>𝑃(𝑎 ≤ 𝑥 ≤ b)</p>
+      <div>
+        <label>a: </label>
+        <input id="a" type="text" />
+      </div>
+      <div>
+        <label>b: </label>
+        <input id="b" type="text" />
+      </div>
+      <button>Calcular</button>
+      <div id="results"></div>
+    </div>
+
+    
+  </body>
+</html>
